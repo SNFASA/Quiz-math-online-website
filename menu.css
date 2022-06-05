@@ -1,0 +1,226 @@
+body{
+  background-image: url(G3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.menu{
+  width: 100%;
+  height: 10%;
+  padding: 0px;
+  margin: 0px auto;
+  
+
+}
+
+h3.menu{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+
+  width: 100px;
+  padding: 10px;
+  border: 3px solid white;
+  margin: 10px auto;
+  background-color:  mediumaquamarine;
+}
+
+h2.nama{
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+
+  width: 100px;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 15px;
+  margin: 10px auto;
+  background-color:  mediumaquamarine;
+}
+
+/*menu*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    overflow: hidden;
+    user-select: none;
+    background-image: url(G3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+nav .logo{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 110px;
+}
+nav{
+    height: 70px;
+    background: #063247;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+  nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #063247;
+    transition: .5s;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color: #23dbdb;
+}
+nav ul ul{
+    position: absolute;
+    top: 85px;
+    border-top: 3px solid #23dbdb;
+    opacity: 0;
+    visibility: hidden;
+}
+nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+}
+nav ul ul li{
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #042331;
+    border-top: none;
+}
+nav ul ul li a{
+    line-height: 50px;
+}
+nav ul ul ul{
+    border-top: none;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 150px;
+}
+nav ul ul li a i{
+    margin-left: 45px;
+}
+
+/*login*/
+
+*{
+  margin: 0;
+  padding: 0 ;
+}
+
+.hero{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  background-image: url(G3.jpg);
+}
+
+
+.form-box{
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 3% auto;
+  background-color: black;
+  padding: 5px ;
+  overflow: hidden;
+}
+
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+  color: white;
+}
+
+.login-btn{
+  padding: 10px 30px ;
+  cursor: pointer;
+  background: transparent;
+  border: 0 ;
+  outline: none;
+  position: relative;
+  color: white;
+}
+
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f , #ffad06);
+  border-radius: 30px;
+  transition: .5s;
+
+}
+
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0 ;
+  border-left: 0 ;
+  border-right:0 ;
+  border-top: 0 ;
+  border-bottom: 1px solid aqua;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px ;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  background: linear-gradient(to right, #ff105f , #ffad06);
+  border:0 ;
+  outline: none;
+  border-radius: 30px;
+}
+
+#login{
+  left: 50px;
+}
+
+#Signup{
+  left: 450px;
+}

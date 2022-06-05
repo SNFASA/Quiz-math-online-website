@@ -1,0 +1,76 @@
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #1B262C;
+
+   
+
+    padding: 5px 22px;
+    border-radius: 10px 10px 0 0 ;
+    margin:  20px auto 0px;
+    background-color: #3282b8 ;
+}
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    color: #1B262C;
+    width: 330px;
+    
+
+    padding: 20px;
+    border: 2px solid  #132C33;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px auto ;
+    background-color:#BBE1FA;
+   
+}
+
+/*selain borang login */
+form.panjang,h3.panjang{
+    width: 330px;
+
+}
+
+/*cantuman sekali */
+input[type="text"],
+input[type="password"],
+select{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 12px;
+}
+
+h2.mesej{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+
+    width: 330px;    
+    padding: 20px ;
+    border: 2px solid darkgrey;
+    border-radius: 0px 0px 10px  10px ;
+    margin:  0px auto ;
+    background-color: #BBE1FA ;
+}
+
+div.kandungan{
+    overflow: auto;
+    border: none;
+    border-radius: 0 0 10px 0 ;
+    width: 100%;
+    height: 650px ;
+   
+}
